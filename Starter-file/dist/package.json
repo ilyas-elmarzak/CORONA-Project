@@ -1,0 +1,16 @@
+{
+  "name": "dist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "concat": "concat -o css/concat.css css/main.css css/section.css",
+    "prefix": "postcss css/style.concat.css --use=autoprefixer --map=false --output=css/style.prefix.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "concat": "^1.0.3"
+  }
+}

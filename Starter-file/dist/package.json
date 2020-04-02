@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "concat": "concat -o css/concat.css css/main.css css/section.css",
+    "watch": "node-sass sass/style.scss css/style.css --watch",
+    "compile": "node-sass sass/style.scss css/style.comp.css",
+    "concat": "concat -o css/style.css css/nav.css css/main.css css/section.css",
     "prefix": "postcss css/style.concat.css --use=autoprefixer --map=false --output=css/style.prefix.css",
+    "compress": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "comp-js": "uglifyjs js/script.js -o js/main.js",
-    "build-css": "npm-run-all concat prefix"
+    "build-css": "npm-run-all watch compile concat prefix compress"
   },
   "author": "ILYAS ELMARZAK",
   "license": "ISC",

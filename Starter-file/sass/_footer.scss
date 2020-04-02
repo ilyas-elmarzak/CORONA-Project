@@ -1,0 +1,101 @@
+$primary-color: #000000;
+$second-color: #1078AD;
+$background-color:#96C5DC;
+$text-color: rgb(255, 255, 255);
+$orange-color:#F4CF1B;
+$grey-color: #7F7F7F;
+$green-color:#369D53;
+$whiteblue-color:#D0E5F0;
+
+
+.footer{
+    &__logo{
+        margin-left: 48%;
+        margin-top: 2%;
+    }   
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list{
+    &__ul{
+        list-style: none; 
+    }
+
+    &__button{
+        padding: 5px 50px 5px 15px;
+         border-width :1.5px;
+         border-color: $second-color;
+         border-radius: 10px;
+         font-size: large;
+         color: $primary-color;
+         background-color: transparent;
+         margin-bottom: 10px;
+         margin-left: -15px;
+         outline: none;
+         font-family: 'Cairo', sans-serif;
+    }
+
+    &__il1{
+
+       padding: 15px 0;
+       font-size: x-large;
+       color: $second-color;
+       
+    }
+    &__il1:hover{
+
+        color: $primary-color;
+    }
+    &__il2{
+        color: $primary-color;
+        padding: 15px 0;
+        font-size: x-large;
+     }
+    &__il1:hover{
+        color: $primary-color;
+    }
+
+    &__icon{
+
+        position: absolute;
+        left:70px;
+        bottom: -36px;
+        position: relative;
+        
+    }
+
+
+}
+
+.contact{
+   &__text{
+    color: $primary-color;
+}
+
+&__num{
+ color: $green-color;
+}
+
+&__aide{
+    color: $primary-color;    
+}
+
+&__chiff{
+ color:  $green-color;
+}
+}
+
+.infosupp{
+    text-align: center;
+   &__title{
+    color: $second-color;
+   }
+    &__algo{
+     color: $grey-color ;
+     margin: 70px 0 0 -80px;
+    }
+}

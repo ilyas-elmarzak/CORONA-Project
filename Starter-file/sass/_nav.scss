@@ -1,0 +1,73 @@
+$primary-color: #000000;
+$second-color: #1078AD;
+$background-color:#96C5DC;
+$text-color: rgb(255, 255, 255);
+$orange-color:#F4CF1B;
+$grey-color: #7F7F7F;
+$green-color:#369D53;
+$whiteblue-color:#D0E5F0;
+
+
+*{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Cairo', sans-serif;
+}
+
+.navbar{
+    &__back {
+      position: absolute;
+      z-index:-6;
+      width:100%;
+      right:0px;
+      height: 26%;
+      top: 0px;
+    }
+    &__logo {
+        margin: 10px 20px ;  
+    }
+
+    &__link{
+        float:right;
+        margin: 33px 50px;
+
+        &--element{
+            padding: 0 30px;
+            font-size: x-large ;
+            color: #1078AD;
+       }
+       
+       &--element:hover{
+       color: black;
+       }
+
+       &--button {
+         padding: 5px 50px 5px 15px;
+         border-width :1.5px;
+         border-color:#1078AD;
+         border-radius: 10px;
+         font-size: x-large;
+         margin-left: 30px;
+         color: #1078AD;
+         background-color: transparent;
+         outline: none;
+       }
+       &--icon{
+        position: absolute;
+        top:55px;
+        right: 85px; 
+       }
+    }
+
+   a{
+      z-index: 30;
+   } 
+}
+
+
+
+

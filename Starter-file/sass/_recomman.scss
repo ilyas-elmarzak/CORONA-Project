@@ -1,0 +1,75 @@
+$primary-color: #000000;
+$second-color: #1078AD;
+$background-color:#96C5DC;
+$text-color: rgb(255, 255, 255);
+$orange-color:#F4CF1B;
+$grey-color: #7F7F7F;
+$green-color:#369D53;
+$whiteblue-color:#D0E5F0;
+
+.org {
+
+    background-color: $second-color;
+    margin-bottom: -2%;
+    font-family: 'Cairo', sans-serif;
+
+    &__title {
+    margin-top: 10%; 
+    margin-bottom: 2%;
+    text-align: center;
+    color: $background-color;
+    font-size: 30px;
+    font-weight: 700;
+    }
+
+ }
+ .recommand{
+
+    display: flex;
+    justify-content: space-around;
+ }
+
+.part1{
+
+ &__black{
+     font-size: 20px;
+     margin-top: -3%;
+     
+}
+ &__text{
+    color: $text-color;
+    font-size: 20px;
+    margin-top: -4%;
+    line-height: 40px;
+    width: 100%;
+}
+
+}
+ .part2{
+
+    &__appel{
+       color:#F4CF1B; 
+       font-size: 25px;
+       margin-left: -3px;
+    }
+
+     &__num{
+         background-color: #F4CF1B;
+         color: #1078AD;
+         border-radius: 5px;
+         width: 60%;
+         height: 15%;
+         border: none;
+         font-size: x-large;
+         margin-bottom: 3%;
+         margin-left: -7%;
+     }
+     
+    &__web{
+        color:white;
+        font-size: x-large;
+        margin-left: -20px;
+    }
+
+
+}

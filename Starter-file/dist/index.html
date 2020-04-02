@@ -4,135 +4,143 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/dist/css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
   <title>Covi-Test</title>
 </head>
 
 <body>
 <!-------------------------------------------------------debut de la section header---------------------------------------------------------->
   <header>
-    <div>
-        <img class="logo" src="/png/logo__sante-10.png" alt="">
-        <img class="background" src="/png/Merged bar-1.png" alt="">
-    </div>
-    <nav>
-      <ul>
-        <li> <a href="">Conseil</a></li>
-        <li> <a href="">Acceuil</a></li>
+    <div class="navbar">
+      <img class="navbar__back" src="/png/Merged bar-1.png" alt="nav"> 
+      <div  class=navbar__logo >
+      <img  src="/png/logo__sante-10.png" alt="">
+       <ul class="navbar__link">
+       <il><a class="navbar__link--element" href="#">Conseil</a></il>
+       <il><a class="navbar__link--element" href="#">Accueil</a></il>
+       <button class="navbar__link--button">عربي</button>
+       <img class="navbar__link--icon" src="/png/Icon_material-language.png">
       </ul>
-      <button type="submit">عربي<img src="/png/Icon material-language.png" alt=""></button>
-    </nav>
+     </div> 
+ </div>
 
-  <div class="yellowbox">
-    <h1 class="title">LA DERNIÈRE INFO MÉDICALE</p>
-    <p class="para">
-      La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.<br>
-      N'arrêtez pas votre traitement! Consultez votre médecin ou votre pharmacien.
-    </p>
+ <div class="grid">
+  <div class="info">
+    <h2 class="info__titre">LA DERNIÈRE INFO MÉDICALE</h2>
+    <p class="info__text"> prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur<br> 
+    d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.<br>
+    N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien. </p>
   </div>
 
-  <div class="whitebox">
-    <div class="whitebox__img">
-      <img src="/png/Groupe_76.png" alt="">
-    </div>
-    <div class="whitebox__para">
-      <h3>Vous pensez avoir été exposé au Coronavirus COVID-19 et avez des symptômes ?</h3>
-      <img src="/png/1f637.png" alt="image">
-      <p> Je reste vigilant ?</p>
-      <p> Je programme une téléconsultation ?</p>
-      <p> J'appelle le 15 ?</p>
-      <p> Faites le test pour répondre en citoyen<br> éclairé selon vos symptômes.</p>
-      <button>Démarrer le test</button>
-    </div>
 
+
+  <div class="image">   
+       <img class="image__img" src="/png/Groupe_76.png" alt="">
   </div>
 
-  <div class="symptômes">
-    <h1>Quels sont les symptômes à surveiller ?</h1>
-    <div class="symptômes__photos">
-        <div class="photo1">
+
+  <div class="test1">
+     <strong><h2 class=test1__title> Vous pensez avoir été exposé au <br>
+      Coronavirus COVID-19 et avez des symptômes ?</h2></strong>
+     <img class="test1__icon" src="/png/élément-1.png" alt="icon">
+      <p class=test1__text> <strong> reste vigilant ? </strong><br> 
+     Je programme une téléconsultation ?<br> J'appelle le 15 ?<br>
+     Faites le test pour répondre en citoyen<br> éclairé selon vos symptômes.</strong>  </P> 
+     
+    <button class="test1__button">Démarrer le test</button> 
+  </div>
+
+</div>
+
+
+
+  <section class="symptômes">
+    <h1 class="symptômes__title">Quels sont les symptômes à surveiller ?</h1>
+        <div class="symptômes__photo1">
             <img src="/png/Trace_871.png" alt="image">
-            <p>Fièvre</p>
+            <p class="symptômes__photo1-para">Fièvre</p>
         </div>
-        <div> 
-          <img src="/png/Calque 2.png" alt="image"></div>
-          <p>Naussée et vomissements</p>
+        <div class="symptômes__photo2"> 
+          <img src="/png/Calque 2.png" alt="image">
+          <p class="symptômes__photo2-para">Naussée et vomissements</p>
         </div>
-    <div class="symptômes__photos">
-        <div> 
+        <div class="symptômes__photo3"> 
           <img src="/png/Calque -16.png" alt="image">
-            <p>Gêne repiratoire</p>
+            <p class="symptômes__photo3-para">Gêne repiratoire</p>
         </div>
-        <div> 
+        <div class="symptômes__photo4"> 
           <img src="/png/Calque -15.png" alt="image">
-            <p>Toux et maux de gorge</p>
+            <p class="symptômes__photo4-para">Toux et maux de gorge</p>
         </div>
-        </div>
-  </div>
+  </section>
 </header>
 <!--------------------------------------------------------fin de la section header----------------------------------------------------------->
 <!--------------------------------------------------debut de la section recommand offici----------------------------------------------------->
 
-    <div class="recommand">
+<div class="org">
+  <h1 class="org__title">Recommandations officielles</h1>
 
-        <h3 class="recommand__title">Recommandations officielles</h3>
+  <div class="recommand">
+        <div class="part1">
+              <h2 class="part1__black" >Si vous pensez être malade, </h2>
+              <h2 class="part1__text">évitez les endroits publics. <br>
+                      Ne rendez pas visite aux personnes fragiles. <br>
+                      Évitez de sortir de chez vous. <br>
+                      Respectez les mesures barrière (lavage de main, masque).<br>
+                      Surveillez vos symptômes, l’évolution de votre température <br>
+                        corporelle et recherchez un avis médical. </h2>
+        </div>
+        <div class="part2">
+              <h1  class="part2__appel">Appel Gratuit</h1>
 
-      <div class="recommand__conseils">
-        <p><span></span> Si vous pensez être malade,</span> </p>
-            <p>évitez les endroits publics. </p>
-            <p>Ne rendez pas visite aux personnes fragiles.</p>
-            <p>Évitez de sortir de chez vous. </p>
-            <p>Respectez les mesures barrière (lavage de main, masque).</p>
-            <p>Surveillez vos symptômes, l’évolution de votre température <br> corporelle et recherchez un avis médical.</p>
-      </div>
+              <button  class="part2__num">080 100 47 47</button>
 
-      <div class="recommand__contact">
-        <h2>Appel Gratuit</h2>
-        <button>080 100 47 47</button>
-        <a href="#">www.sante.gov.ma</a>
-      </div>
+              <a class="part2__web" href="#">www.sante.gov.ma</a>
+        </div>
+  </div>
+</div>
 
-    </div>
-
-    <div class="test">
-
-      <h3> Vous pensez avoir été exposé au Coronavirus COVID-19 et avez des symptômes ?</h3>
-      <img src="/png/élément-2.png" alt=""><br>
-      <button>Démarrer le test</button>
-
+    <div class="test2">
+      <h3 class="test2__title"> Vous pensez avoir été exposé au Coronavirus COVID-19 et avez des symptômes ?</h3>
+      <img class="test2__emoji" src="/png/élément-2.png" alt="">
+      <button class="test2__button">Démarrer le test</button>
     </div>
 
   <!-------------------------------------------Fin de la section recommand offici-------------------------------------------------------->
   <!------------------------------------------------début de la section footer----------------------------------------------------------->
 
-  <div class="footer">
-    <img src="/png/logo__sante-1.png" alt="">
-    
-    <div class="footer">
-      <div class="footer__part1">
-        <button><a href="#">FRAN <img src="png/Icon material-language.png" alt="image"></a></button><br>
-        <a href="#">Accueil</a><br>
-        <a href="#">Conseil</a><br>
+  <section class="footer">
+    <img class="footer__logo"  src="/png/logo__sante-10.png" alt="">
+    <div class="flex">
+       <div class="list">
+        <ul class="list__ul">
+            <img class="list__icon" src="/png/Icon_material-language.png">
+            <li><button class="list__button">FRAN</button></li>
+             <li class="list__il1"><a class="list_il" href="#" >Accueil</a></li>
+             <li class="list__il2"><a  class="list_il" href="#" >Contact</a></li>
+            
+        </ul>
+      </div> 
+
+      <div class="contact">
+        <h2 class="contact__title">Contacts utiles</h2>
+        <p class="contact__text">Chiffre économique "Alo épidémie vigilance"</p>
+        <h2 class="contact__num">080 100 47 47</h2>
+        <p class="contact__aide">Aide médicale urgente</p>
+        <h2 class="contact__chiff">114</h2>
       </div>
 
-      <div class="footer__part2">
-        <h3 class="footer__part2-title">Contacts utiles</h3>
-        <p>Chiffre économique "Alo épidémie vigilance"</p>
-        <p class="footer__part2-number1">080 100 47 47</p>
-        <p>Chiffre économique "Alo épidémie vigilance"</p>
-        <h4 class="footer__part2-number2">141</h4>
-      </div>
+      <div class="infosupp">
+          <p class="infosupp__algo">Algorithme d'orientation mis à jour sur les recommandations en vigueur <br>
+            au 22/03/2020 à 16h15.  Ce site d’information n’est pas un dispositif médical, <br>
+            il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance <br>
+            Digitale contre le COVID-19 : @maladiecovid19</p>
 
-      <div class="footer__para">
-        <p>Algorithme d'orientation mis à jour sur les recommandations en vigueur<br>
-          au 22/03/2020 à 16h15. Ce site d’information n’est pas un dispositif médical, <br>
-          il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance <br>
-          Digitale contre le COVID-19 : @maladiecovid19</p>
       </div>
 
     </div>
-  </div>
-  <!-----------------------------------------------début de la section footer------------------------------------------------------------->
+  <!-----------------------------------------------fin de la section footer------------------------------------------------------------->
 </body>
 
 </html>

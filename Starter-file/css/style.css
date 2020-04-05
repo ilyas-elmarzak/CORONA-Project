@@ -6,11 +6,9 @@
   grid-template-areas: "info info" "image test"; }
 
 .info {
-  width: 100%;
   grid-area: info;
   background-color: #F4CF1B;
   margin-top: -0.2%;
-  height: 42%;
   line-height: 35px; }
   .info__titre {
     text-align: center;
@@ -53,7 +51,7 @@
     margin-bottom: 20px;
     transition: background-color 2s ease-out;
     outline: none;
-    font-family: 'Cairo', sans-serif;
+    font-family: "Cairo", sans-serif;
     padding-bottom: 10%; }
   .test1__button:hover {
     background-color: #D0E5F0; }
@@ -63,7 +61,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 20% 45% 45%;
-  font-family: 'Cairo', sans-serif; }
+  font-family: "Cairo", sans-serif; }
   .symptômes__title {
     font-size: 35px;
     grid-column: 1/3;
@@ -117,7 +115,7 @@
   background-color: #96C5DC;
   margin-top: -10px;
   padding-bottom: 20px;
-  font-family: 'Cairo', sans-serif; }
+  font-family: "Cairo", sans-serif; }
   .test2__title {
     padding-top: 20px;
     color: #1078AD;
@@ -130,7 +128,7 @@
     margin-right: auto; }
   .test2__button {
     width: 40%;
-    font-family: 'Cairo', sans-serif;
+    font-family: "Cairo", sans-serif;
     border: none;
     background-color: #1078AD;
     color: white;
@@ -158,7 +156,7 @@
   margin-bottom: 10px;
   margin-left: -15px;
   outline: none;
-  font-family: 'Cairo', sans-serif; }
+  font-family: "Cairo", sans-serif; }
 
 .list__il1 {
   padding: 15px 0;
@@ -208,7 +206,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Cairo', sans-serif; }
+  font-family: "Cairo", sans-serif; }
 
 .navbar__back {
   position: absolute;
@@ -251,7 +249,7 @@ body {
 .org {
   background-color: #1078AD;
   margin-bottom: -2%;
-  font-family: 'Cairo', sans-serif; }
+  font-family: "Cairo", sans-serif; }
   .org__title {
     margin-top: 10%;
     margin-bottom: 2%;
@@ -295,3 +293,116 @@ body {
   color: white;
   font-size: x-large;
   margin-left: -20px; }
+
+.protection {
+  font-family: "Cairo", sans-serif; }
+  .protection__title {
+    color: #1078AD;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 35px; }
+  .protection__image {
+    display: grid;
+    grid-template-columns: 35% 40% 35%;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center; }
+    .protection__image--1 {
+      grid-row: 1/2;
+      grid-column: 1/2;
+      margin: auto; }
+    .protection__image--2 {
+      grid-row: 1/2;
+      grid-column: 2/3;
+      margin: auto; }
+    .protection__image--3 {
+      grid-row: 1/2;
+      grid-column: 3/4;
+      margin: auto; }
+    .protection__image--4 {
+      grid-row: 2/3;
+      grid-column: 1/2;
+      margin: auto; }
+    .protection__image--5 {
+      grid-row: 2/3;
+      grid-column: 2/3;
+      margin: auto; }
+    .protection__image--6 {
+      grid-row: 2/3;
+      grid-column: 3/4;
+      margin: auto; }
+    .protection__image--7 {
+      grid-row: 3/4;
+      grid-column: 2/3;
+      margin: auto; }
+    .protection__image--p {
+      font-weight: bolder;
+      color: #1078AD;
+      font-size: 20px;
+      text-align: center; }
+
+.informations {
+  display: flex;
+  flex-direction: row;
+  font-family: "Cairo", sans-serif;
+  background-color: #D0E5F0;
+  width: 100%; }
+  .informations__title {
+    color: #1078AD;
+    font-size: 30px;
+    margin-left: 60%; }
+  .informations__para {
+    color: #1A519E;
+    font-size: 20px;
+    margin-left: 40%;
+    width: 100%; }
+  .informations__button1 {
+    width: 15%;
+    height: 50px;
+    margin: 5% 5% 5% 25%;
+    border: none;
+    background-color: #1078AD;
+    color: white;
+    font-family: "Cairo", sans-serif;
+    border-radius: 5px; }
+  .informations__button2 {
+    width: 15%;
+    height: 50px;
+    margin: 5% 5% 5% 7%;
+    border: none;
+    background-color: #1078AD;
+    color: white;
+    font-family: "Cairo", sans-serif;
+    border-radius: 5px; }
+
+.transm {
+  margin: 0 80px 80px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  font-family: "Cairo", sans-serif; }
+  .transm__title {
+    color: #1078AD;
+    font-size: 35px;
+    margin-left: 50%;
+    grid-column: 1/2;
+    letter-spacing: 0;
+    margin-bottom: 40px;
+    width: 120%; }
+  .transm__illus1 {
+    grid-column: 1/2;
+    margin-right: auto;
+    margin-left: 55%;
+    margin-top: 30px; }
+  .transm__illus1--para {
+    color: #1A519E;
+    font-weight: 700; }
+  .transm__illus2 {
+    grid-column: 2/2;
+    margin-left: 30%;
+    margin-top: 5%; }
+  .transm__illus2--para {
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 25%; }

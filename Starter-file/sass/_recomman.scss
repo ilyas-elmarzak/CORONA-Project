@@ -1,17 +1,9 @@
-$primary-color: #000000;
-$second-color: #1078AD;
-$background-color:#96C5DC;
-$text-color: rgb(255, 255, 255);
-$orange-color:#F4CF1B;
-$grey-color: #7F7F7F;
-$green-color:#369D53;
-$whiteblue-color:#D0E5F0;
 
 .org {
 
     background-color: $second-color;
     margin-bottom: -2%;
-    font-family: 'Cairo', sans-serif;
+    font-family: $myFont;
 
     &__title {
     margin-top: 10%; 

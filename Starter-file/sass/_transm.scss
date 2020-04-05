@@ -1,0 +1,37 @@
+.transm{
+    margin: 0 80px 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    font-family: $myFont;
+
+    &__title{
+        color: $second-color;
+        font-size: 35px;
+        margin-left: 50%;
+        grid-column: 1/2;
+        letter-spacing: 0;
+        margin-bottom: 40px;
+        width: 120%;
+    }
+    &__illus1{
+        grid-column: 1/2;
+        margin-right: auto;
+        margin-left: 55%;
+        margin-top: 30px;
+    }
+    &__illus1--para{
+        color: $blue-color;
+        font-weight: 700;
+    }
+    &__illus2{
+        grid-column: 2/2;
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    &__illus2--para{
+        font-weight: 700;
+        line-height: 20px;
+        margin-left: 25%;
+    }
+}

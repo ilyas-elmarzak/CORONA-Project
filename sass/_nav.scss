@@ -1,0 +1,64 @@
+
+*{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: $myFont;
+}
+
+.navbar{
+    &__backgr {
+      position: absolute;
+      z-index:-1;
+      width:100%;
+      right:0px;
+      height: 26%;
+      top: 0px;
+    }
+    &__logo {
+        margin: 10px 20px ;  
+    }
+
+    &__link{
+        float:right;
+        margin: 33px 50px;
+
+        &--element{
+            padding: 0 30px;
+            font-size: x-large ;
+            color: $second-color;
+       }
+       
+       &--element:hover{
+       color: $primary-color;
+       }
+
+       &--button {
+         padding: 5px 50px 5px 15px;
+         border-width :1.5px;
+         border-color:$second-color;
+         border-radius: 10px;
+         font-size: x-large;
+         margin-left: 30px;
+         color: $second-color;
+         background-color: transparent;
+         outline: none;
+       }
+       &--icon{
+        position: absolute;
+        top:55px;
+        right: 85px; 
+       }
+    }
+
+   a{
+      z-index: 1;
+   } 
+}
+
+
+
+

@@ -7,7 +7,7 @@ $grey-color: #7F7F7F;
 $green-color:#369D53;
 $whiteblue-color:#D0E5F0;
 $myFont: 'Cairo', sans-serif;
-.grid{
+.illus{
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -78,7 +78,7 @@ line-height:35px;
         font-size: 30px;
         color: $text-color;
         margin-bottom: 20px;
-        transition: background-color 2s ease-out;
+        transition: background-color ease-out;
         outline: none;
         font-family: $myFont;
         padding-bottom: 10%;
@@ -89,22 +89,20 @@ line-height:35px;
     }
 }
 
-
-
+.symptôme__title {
+    font-size: 35px;
+    grid-column: 1/3;
+    text-align: center;
+    letter-spacing: 0;
+    color: $second-color;
+    margin-bottom: 40px;
+}
 .symptômes {
     margin: 0 80px 80px;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 20% 45% 45%;
+    grid-template-rows: 50% 50%;
     font-family: $myFont;
-    &__title {
-        font-size: 35px;
-        grid-column: 1/3;
-        text-align: center;
-        letter-spacing: 0;
-        color: $second-color;
-        margin-bottom: 40px;
-    }
     &__photo1 {
         grid-column: 1/2;
         margin-right: auto;

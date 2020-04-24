@@ -1,0 +1,29 @@
+.error{
+    font-family: $myFont;
+    &__img{
+        width: 50%;
+        margin-left: 26%;
+        margin-top: 7%;
+    }
+    &__txt{
+        color: $second-color;
+        font-size: 40px;
+        margin-left: 42%;
+    }
+    &__button{
+        margin-left: 37%;
+        padding: 0% 2.5% 0.5% 2.5%;
+        background-color: $second-color ;
+        border-radius: 5px;
+        border: 1px solid $primary-color;
+        font-size: 30px;
+        color: $text-color;
+        margin-bottom: 20px;
+        transition: #96C5DC 2s ease-out;
+        outline: none;
+        font-family: $myFont;
+    }
+    &__button:hover{
+        background-color: $whiteblue-color;
+    }
+}

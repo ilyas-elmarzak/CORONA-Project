@@ -443,7 +443,7 @@ body {
   .Préambule h1 {
     font-size: 28px;
     font-weight: bolder;
-    color: #1078ad; }
+    color: #1078AD; }
   .Préambule hr {
     width: 50%;
     margin: auto;
@@ -496,7 +496,7 @@ body {
       content: '';
       height: 22px;
       width: 22px;
-      background-color: #88b7d3;
+      background-color: #96C5DC;
       border-radius: 50%;
       position: absolute;
       top: -25px;
@@ -515,7 +515,7 @@ body {
     content: '';
     height: 48px;
     width: 48px;
-    background-color: #88b7d3;
+    background-color: #96C5DC;
     border-radius: 50%;
     position: absolute;
     top: -43px;
@@ -532,7 +532,7 @@ body {
   .questionnaire h1 {
     text-align: center;
     font-size: 31px;
-    color: #787878;
+    color: #7F7F7F;
     font-weight: bolder;
     width: 82%;
     margin: 70px auto; }
@@ -552,7 +552,7 @@ body {
       width: 90%;
       height: 10px;
       border-radius: 20px;
-      background-color: #e6f1f7;
+      background-color: #cfe4ef;
       overflow: hidden; }
       .questionnaire .progress__bar .bar {
         height: 100%;
@@ -562,29 +562,29 @@ body {
         border-top-left-radius: 20px;
         transition: all .4s ease; }
 
-.answer-inputs {
+.inputs {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50%; }
-  .answer-inputs input[type="number"] {
+  .inputs input[type="number"] {
     font-size: 16px;
     border: 1px solid #1078AD;
     width: 55%;
     padding: 10px; }
-  .answer-inputs .input-span {
+  .inputs .input-span {
     font-size: 16px;
     border: 1px solid #1078AD;
     border-left: none;
     padding: 4px 10px 5px;
-    color: #555555;
-    background-color: #edf6fa; }
-  .answer-inputs input[type="radio"] {
+    color: #000000;
+    background-color: #cfe4ef; }
+  .inputs input[type="radio"] {
     -webkit-appearance: none; }
-  .answer-inputs input[type="radio"]:checked + label {
+  .inputs input[type="radio"]:checked + label {
     background-color: #1078AD;
     color: #F4CF1B; }
-  .answer-inputs label {
+  .inputs label {
     height: 80px;
     width: 120px;
     color: #1078AD;
@@ -598,7 +598,7 @@ body {
     padding: 9px 0px 0;
     transition: .5s ease;
     margin-right: 50px; }
-    .answer-inputs label span {
+    .inputs label span {
       font-size: 22px;
       position: relative;
       bottom: 5px; }
@@ -614,7 +614,7 @@ body {
     font-size: 17px;
     background-color: #cfe4ef;
     padding: 10px 20px;
-    color: #1078ad;
+    color: #1078AD;
     border: 2px solid #1078AD;
     border-radius: 4px;
     transition: .3s ease; }
@@ -625,8 +625,8 @@ body {
       cursor: not-allowed;
       opacity: .65; }
       .button-container button:disabled:hover {
-        background-color: #cfe4ef !important;
-        color: #1078ad !important; }
+        background-color: #cfe4ef;
+        color: #1078AD; }
 
 .hide {
   opacity: 0;

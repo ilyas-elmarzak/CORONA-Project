@@ -33,7 +33,7 @@
 
 }
 
-.start-button {
+.start-btn {
 
     font-size: 22px;
     font-weight: bolder;
@@ -185,7 +185,7 @@
 
 }
 
-.inputs {
+.answer-inputs {
 
     display: flex;
     align-items: center;
@@ -249,9 +249,9 @@
     }
 }
 
-.button-container {
+.btn-container {
     margin: 110px 0 40px;
-    padding: 0 50px;
+    padding: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;

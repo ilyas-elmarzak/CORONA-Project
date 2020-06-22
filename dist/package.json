@@ -6,7 +6,6 @@
   "scripts": {
     "watch": "node-sass sass/style.scss css/style.css --watch",
     "compile": "node-sass -w sass -o css",
-    "prefix": "postcss css/style.css --use=autoprefixer --map=false --output=css/style.prefix.css",
     "compress": "node-sass --output-style compressed sass -o css ",
     "comp-js": "uglifyjs js/script.js -o js/main.js",
     "build-css": "npm-run-all watch compile prefix compress"
